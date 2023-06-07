@@ -3,6 +3,9 @@
 @use "./partials/_variables.scss" as *;
 @use "./partials/_header.scss" as *;
 @use "./partials/_JumboTron.scss";
+@use "./partials/_PostJumbo.scss";
+@use "./partials/_Intro.scss";
+@use "./partials/_BannerPlot.scss";
 
 
 
@@ -19,6 +22,8 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
     background-color: $primary;
+    height: 123px;
+
 
 }
 

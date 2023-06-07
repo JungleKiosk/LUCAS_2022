@@ -1,0 +1,20 @@
+@use "./_variables.scss" as *;
+
+
+.req {
+    margin-top: 4rem;
+
+    .txt_title_thin {
+        font-size: larger;
+        color: $info;
+    }
+} 
+
+#Results p {
+    font-size: larger;
+}
+
+#Results p a {
+    color: $primary;
+    text-decoration-color: $primary;
+}

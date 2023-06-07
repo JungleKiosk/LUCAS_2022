@@ -83,7 +83,7 @@ export default {
                                 <h6 class=" txt_neutral_github bg-dark rounded-pill">visit my <span class="txt_github">GitHub</span> profile &RightArrow;</h6>
                             </div>
                             <div class="col-6 col-lg-2 mx-1 col_github">
-                                <a href="" target="_blank">
+                                <a href="https://github.com/JungleKiosk" target="_blank">
                                     <img class="text-center my_github zoom-effect-github" src="../assets/img/github_logo.svg" alt="">
                                 </a>
                             </div>

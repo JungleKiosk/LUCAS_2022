@@ -1,7 +1,8 @@
 <script>
 
 import JumboTron from './Jumbotron.vue';
-
+import PostJumbo from './PostJumbo.vue';
+import Intro from './intro.vue';
 
 
 
@@ -9,7 +10,7 @@ export default {
     data() {
         return {};
     },
-    components: { JumboTron },
+    components: { JumboTron, PostJumbo, Intro },
 }
 
 </script>
@@ -18,6 +19,8 @@ export default {
 
   <main>
     <JumboTron></JumboTron>
+    <PostJumbo></PostJumbo>
+    <Intro></Intro>
 
   </main>
 </template>
