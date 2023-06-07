@@ -1,0 +1,80 @@
+@use "./_variables.scss" as *;
+
+
+.jumbotron {
+
+    margin-bottom: 5rem;
+
+    .introduce p {
+        font-size: larger;
+    }
+
+    .introduce p a {
+        color: $primary;
+        text-decoration-color: $primary;
+    }
+
+
+    .col_goals_onu {
+        margin-top: 5rem;
+
+    }
+
+    .goals img {
+        width: auto;
+    }
+
+    .zoom-effect-goals {
+        transition: transform 0.2s ease-in-out;
+        transform-origin: center center;
+    }
+
+    .zoom-effect-goals:hover {
+        transform: scale(1.75);
+        border: 0;
+    }
+
+
+    .lucas_link {
+        border: 1px solid $primary;
+    }
+
+    .txt_neutral_github {
+        color: $neutral;
+    }
+
+    .col_github {
+        margin-bottom: 3rem;
+
+    }
+
+    .txt_github {
+        color: $secondary;
+        font-size: larger;
+
+
+    }
+
+    .my_github {
+        width: 20%;
+        padding: 0.1rem;
+        background-color: $neutral;
+        border-radius: 20%;
+        box-shadow: 0px 0px 30px $neutral;
+
+    }
+
+    .zoom-effect-github {
+        transition: transform 1s ease-in-out;
+        transform-origin: center center;
+    }
+
+    .zoom-effect-github:hover {
+        transform: scale(1.5);
+        border: 0;
+        border-bottom: 3px solid $secondary;
+        border-right: 3px solid $secondary;
+        box-shadow: 0px 0px 20px $secondary;
+    }
+
+}

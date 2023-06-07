@@ -2,6 +2,7 @@
 
 @use "./partials/_variables.scss" as *;
 @use "./partials/_header.scss" as *;
+@use "./partials/_JumboTron.scss";
 
 
 
@@ -28,4 +29,58 @@ body::-webkit-scrollbar-thumb:hover {
 
 body::-webkit-scrollbar-track {
     border-left:1px solid $primary;
+}
+
+
+.zoom-effect {
+    transition: transform 0.2s ease-in-out;
+    transform-origin: center center;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.1);
+    background-color: $primary;
+    color: $light;
+}
+
+
+.bg_primary{
+    background-color: $primary;
+}
+
+.bg_tulip_tree{
+    background-color: $clr_tulip_tree;
+}
+
+.txt_primary {
+    color: $primary;
+}
+
+
+.txt_title_thin {
+    font-weight: lighter;
+    color: $primary
+}
+
+.txt_steps {
+    font-weight: lighter;
+    color: $neutral
+}
+
+.txt_note {
+    color: $info;
+}
+
+.color_txt_link {
+    transition: transform 1.5s ease-in-out;
+    text-decoration: none;
+}
+
+.color_txt_link:hover {
+    background-color: $primary;
+    color: $light;
+}
+
+.my_flow {
+    margin-top: 5rem;
 }
