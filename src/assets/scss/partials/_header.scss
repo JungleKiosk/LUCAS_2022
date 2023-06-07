@@ -1,0 +1,55 @@
+@use "./variables" as *;
+@use "./utility_selectors.scss" as *;
+
+
+header {
+ 
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition-duration: 1.5s;
+
+    nav {
+        .linkpage-center button {
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .menu-button {
+            color: $light;
+            font-size: 13px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            border: 1px solid $primary ;
+            background-color: $bg_body;
+        }
+
+        .nav_style {
+            border: 1px solid $primary ;
+            background-color: $bg_body;
+            border-radius: 5rem;
+            padding: 0;
+
+        }
+    }
+
+    /* 
+    .main_logo {
+        width: 150px;
+    } */
+
+
+    button.deskopt_version {
+        font-size: 22px;
+        color: $light;
+
+
+        &:hover {
+            color: $info;
+        }
+    }
+
+
+}
