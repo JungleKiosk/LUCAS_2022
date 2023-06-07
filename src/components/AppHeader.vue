@@ -62,7 +62,7 @@ export default {
 
 </script>
 <template>
-    <img id="Start" class="svg_header" src="../assets/img/jumbo-overlay.svg" alt="">
+<img id="Start" class="svg_header" src="../assets/img/jumbo-overlay.svg" alt="">
     <header class="d-flex justify-content-center align-items-center scroll_upper text-danger"
         :class="headerScroll ? 'header_on' : 'header_off', shadow_on ? ' header_shadow' : ''">
         <nav class="d-md-flex nav_style d-inline"
