@@ -7,8 +7,8 @@ export const contacts = {
     tel_2: "",
     email: "eso.fra24@gmail.com",
     logos: [
-      { img_logo: "github_footer.svg", url: "" },
       { img_logo: "linkedin_footer.svg", url: "" },
+      { img_logo: "github_footer.svg", url: "https://github.com/JungleKiosk" },
       { img_logo: "youtube_footer.svg", url: "" },
     ]
     

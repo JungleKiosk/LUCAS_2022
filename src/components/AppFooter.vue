@@ -32,9 +32,9 @@ export default {
     <div class="container" id="Contacts">
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
         <AboutFooter></AboutFooter>
-        <ContactsFooter :contacts="contacts"></ContactsFooter>
-        <ProjectsFooter :pages="projects"></ProjectsFooter>
         <CorrelationsFooter :blog="correlations"></CorrelationsFooter>
+        <ProjectsFooter :pages="projects"></ProjectsFooter>
+        <ContactsFooter :contacts="contacts"></ContactsFooter>
       </div>
       <!-- /.row -->
     </div>

@@ -1,0 +1,30 @@
+@use "./_variables.scss" as *;
+
+.correlations {
+
+  li:nth-child(even) {
+    margin: 1rem 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: $info;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $lime;
+    }
+
+    h6 {
+      font-weight: 700;
+    }
+
+    span {
+      color: grey;
+      font-size: 0.875rem;
+      font-weight: 400;
+    }
+
+  }
+
+}

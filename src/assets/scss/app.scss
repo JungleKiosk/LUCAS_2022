@@ -6,9 +6,10 @@
 @use "./partials/_PostJumbo.scss";
 @use "./partials/_Intro.scss";
 @use "./partials/_BannerPlot.scss";
-
-
-
+@use "./partials/_AppFooter.scss";
+@use "./partials/_AboutFooter.scss";
+@use "./partials/_ProjectsFooter.scss";
+@use "./partials/_CorrelationFooter.scss";
 
 body {
     background-color: $bg_body;

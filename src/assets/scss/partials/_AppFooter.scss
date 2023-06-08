@@ -1,0 +1,20 @@
+@use "./_variables.scss" as *;
+
+footer {
+  padding: 70px 0;
+  background-color: $dark;
+  color: $neutral;
+
+  .col {
+    padding-bottom: 0;
+    border-bottom: none;
+
+    h5 {
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: $primary;
+    }
+
+  }
+
+}

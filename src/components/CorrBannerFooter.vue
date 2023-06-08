@@ -15,10 +15,10 @@ export default {
 <template>
   <li>
     <a class="d-flex align-items-center" :href="item.link" target="_blank">
-      <img class="w-25 me-3 flex-shrink-0 rounded-5" :src="getImageUrl(item.img)" alt="Blog article image">
+      <img class="w-25 me-3 my-3 flex-shrink-0 rounded-0" :src="getImageUrl(item.img)" alt="Correlation projects">
       <div class="text">
         <h6>{{ item.title }}</h6>
-        <span>- {{ item.date }}</span>
+        <span>{{ item.date }}</span>
       </div>
       <!-- /.text -->
     </a>
