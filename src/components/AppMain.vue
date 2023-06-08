@@ -8,13 +8,13 @@ import SecondStep from './SecondStep.vue';
 import ThirdStep from './ThirdStep.vue';
 import FourthStep from './FourthStep.vue';
 import CutterPage from './CutterPage.vue';
-
+import LastStep from './LastStep.vue';
 
 export default {
     data() {
         return {};
     },
-    components: { JumboTron, PostJumbo, Intro, FirstStep, SecondStep, ThirdStep, FourthStep, CutterPage },
+    components: { JumboTron, PostJumbo, Intro, FirstStep, SecondStep, ThirdStep, FourthStep, CutterPage, LastStep },
 }
 
 </script>
@@ -30,6 +30,7 @@ export default {
     <ThirdStep></ThirdStep>
     <FourthStep></FourthStep>
     <CutterPage></CutterPage>
+    <LastStep></LastStep>
 
   </main>
 </template>
