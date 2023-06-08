@@ -48,6 +48,10 @@ body::-webkit-scrollbar-track {
     color: $light;
 }
 
+.lucas_link {
+    border: 1px solid $primary;
+}
+
 
 .bg_primary{
     background-color: $primary;
@@ -88,4 +92,16 @@ body::-webkit-scrollbar-track {
 
 .my_flow {
     margin-top: 5rem;
+}
+
+.btn_arrow {
+    background-color: $dark ;
+    color: $primary;
+    border: 3px solid $primary;
+    border-radius: 50%;
+}
+
+.btn_arrow:hover {
+    background-color: $primary;
+    color: $light;
 }

@@ -4,13 +4,13 @@ import JumboTron from './Jumbotron.vue';
 import PostJumbo from './PostJumbo.vue';
 import Intro from './Intro.vue';
 import FirstStep from './FirstStep.vue';
-
+import SecondStep from './SecondStep.vue';
 
 export default {
     data() {
         return {};
     },
-    components: { JumboTron, PostJumbo, Intro, FirstStep },
+    components: { JumboTron, PostJumbo, Intro, FirstStep, SecondStep },
 }
 
 </script>
@@ -22,7 +22,8 @@ export default {
     <PostJumbo></PostJumbo>
     <Intro></Intro>
     <FirstStep></FirstStep>
-    
+    <SecondStep></SecondStep>
+
 
   </main>
 </template>
