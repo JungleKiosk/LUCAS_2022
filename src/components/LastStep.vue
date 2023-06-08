@@ -70,7 +70,7 @@ export default {
                         not satisfied the algorithm does not work.
                     </p>
 
-                    <p>
+                    <p class=" text-center">
                         The following video can better explain the use of the QGIS JOIN algorithm
                     </p>
 
@@ -85,7 +85,7 @@ export default {
                         </div>
                     </div>
 
-                    <p>
+                    <p class=" text-center">
                         Once the KMLs have been obtained, it is possible to create the personal work map in Google My Maps
                         and on a
                         daily basis

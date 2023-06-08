@@ -9,18 +9,30 @@ import ThirdStep from './ThirdStep.vue';
 import FourthStep from './FourthStep.vue';
 import CutterPage from './CutterPage.vue';
 import LastStep from './LastStep.vue';
+import Conclusion from './Conclusion.vue';
+import ConclusionLogos from './ConclusionLogos.vue';
 
 export default {
-    data() {
-        return {};
-    },
-    components: { JumboTron, PostJumbo, Intro, FirstStep, SecondStep, ThirdStep, FourthStep, CutterPage, LastStep },
+  data() {
+    return {};
+  },
+  components: {
+    JumboTron,
+    PostJumbo,
+    Intro,
+    FirstStep,
+    SecondStep,
+    ThirdStep,
+    FourthStep,
+    CutterPage,
+    LastStep,
+    Conclusion,
+    ConclusionLogos },
 }
 
 </script>
 
 <template>
-
   <main>
     <JumboTron></JumboTron>
     <PostJumbo></PostJumbo>
@@ -31,6 +43,8 @@ export default {
     <FourthStep></FourthStep>
     <CutterPage></CutterPage>
     <LastStep></LastStep>
+    <Conclusion></Conclusion>
+    <ConclusionLogos></ConclusionLogos>
 
   </main>
 </template>
