@@ -128,7 +128,7 @@ export default {
 
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-1 col-lg-1 text-center">
+              <div class="col-3 col-lg-2 text-center">
                 <a href="">
                   <img class="text-center zoom_yt" src="../assets/img/yt.svg" alt="">
                 </a>
@@ -170,6 +170,14 @@ export default {
     </div>
 
   </main>
+
+  <div class="col">
+    <div>
+      <img class="adige_img" src="../assets/img/adige.jpeg" alt="">
+    </div>
+  </div>
+
+
 </template>
 
 <style>
@@ -180,11 +188,18 @@ export default {
 }
 
 .zoom_yt {
-    transition: transform 0.2s ease-in-out;
-    transform-origin: center center;
+  transition: transform 0.2s ease-in-out;
+  transform-origin: center center;
 }
 
 .zoom_yt:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.adige_img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 </style>
