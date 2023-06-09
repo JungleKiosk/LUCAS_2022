@@ -12,7 +12,8 @@ export default {
             shadow_on: false,
             isMobileMenuOpen: false,
             shouldVibrate: false,
-            isTopOfPage: true
+            isTopOfPage: true,
+            isIPhoneX: false
         }
     },
     components: {
@@ -57,12 +58,18 @@ export default {
 
     mounted() {
         window.addEventListener('scroll', this.scrollFunction);
+        const iPhoneXAspectRatio = 375 / 812; // Larghezza / Altezza dell'iPhone X
+        const windowAspectRatio = window.innerWidth / window.innerHeight;
+
+        if (windowAspectRatio <= iPhoneXAspectRatio) {
+            this.isIPhoneX = true;
+        }
     }
 }
 
 </script>
 <template>
-<img id="Start" class="svg_header" src="../assets/img/jumbo-overlay.svg" alt="">
+    <img id="Start" class="svg_header" src="../assets/img/jumbo-overlay.svg" alt="">
     <header class="d-flex justify-content-center align-items-center scroll_upper text-danger"
         :class="headerScroll ? 'header_on' : 'header_off', shadow_on ? ' header_shadow' : ''">
         <nav class="d-md-flex nav_style d-inline"
@@ -81,11 +88,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
 .svg_header {
-  width: 100%;
-  height: auto;
-  display: block;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .header_on {
@@ -148,5 +154,18 @@ export default {
     100% {
         transform: translateX(0);
     }
+}
+
+
+
+.svg_header {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.svg_header_mobile {
+    max-width: 100%;
+    height: auto;
 }
 </style>

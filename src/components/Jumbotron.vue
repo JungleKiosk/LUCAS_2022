@@ -40,7 +40,7 @@ export default {
                             The study programs contribute to the pursuit of the <br> <a
                                 href="https://www.un.org/sustainabledevelopment/"><span
                                     class="txt_primary color_txt_link">Sustainable
-                                    Development Goals</span> </a> of the UNO Agenda 2030. <br>
+                                    Development Goals</span> </a> of the ONU Agenda 2030. <br>
                             I have a passion for the environment and for technology.<br>
                         </p>
                         <p>
