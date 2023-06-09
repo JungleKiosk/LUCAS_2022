@@ -59,25 +59,25 @@ export default {
 
                         <div class="col-11 col-lg-11 param_item">
                             <a href="https://land.copernicus.eu/imagery-in-situ/lucas">
-                                <img src="../assets/img/parameters/Copernicus.png" alt="">
+                                <img src="../assets/img/parameters/Copernicus.png" alt="" target="_blank">
                             </a>
                         </div>
 
                         <div class="col-4 col-lg-3 px-3 param_item">
                             <a href="https://www.fao.org/3/ap862e/ap862e00.pdf">
-                                <img src="../assets/img/parameters/FAO_logo.svg" alt="">
+                                <img src="../assets/img/parameters/FAO_logo.svg" alt="" target="_blank">
                             </a>
                         </div>
 
                         <div class="col-4 col-lg-3 px-3 param_item">
                             <a href="https://inspire.ec.europa.eu/">
-                                <img src="../assets/img/parameters/inspirre_logo.png" alt="">
+                                <img src="../assets/img/parameters/inspirre_logo.png" alt="" target="_blank">
                             </a>
                         </div>
 
                         <div class="col-4 col-lg-3 px-3 param_item">
                             <a href="https://ec.europa.eu/eurostat/documents/205002/9722562/Grassland-Modelling-Report.pdf">
-                                <img class=" rounded-3" src="../assets/img/parameters/grassland.jpg" alt="">
+                                <img class=" rounded-3" src="../assets/img/parameters/grassland.jpg" alt="" target="_blank">
                             </a>
                         </div>
 

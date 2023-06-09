@@ -87,7 +87,7 @@ export default {
 
           <p>
             At the end of the working day, in addition to arranging the collected data in the Eurostat management system
-            ( <a href="https://www.lucassurvey.com/dmt/viewer"><span class="txt_primary color_txt_link">DMT
+            ( <a href="https://www.lucassurvey.com/dmt/viewer" target="_blank"><span class="txt_primary color_txt_link">DMT
                 Viewer</span></a>), I was in charge of managing my personal
             work schedule, in order to update the map daily and
             distinguish at a glance points beaten from those still to visit. This through the stylization of the points in

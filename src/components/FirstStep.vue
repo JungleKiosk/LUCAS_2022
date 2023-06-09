@@ -71,7 +71,7 @@ export default {
 
 
                     <p>To extrapolate the 208 LUCAS points from the KML file it was necessary to consult the <a
-                            class="txt_primary color_txt_link text-decoration-underline" href="https://idt2.regione.veneto.it/">Geoportal of
+                            class="txt_primary color_txt_link text-decoration-underline" href="https://idt2.regione.veneto.it/" target="_blank">Geoportal of
                             the Veneto region</a> , download the maps relating to the borders
                         administrative files in shape file format, so as to be able to include only the points of interest,
                         excluding

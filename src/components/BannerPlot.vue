@@ -60,7 +60,7 @@ export default {
                         <!--    <h5 :style="{ color: currentColumn === (stack + 1) ? '#ffcc00' : '', transition: 'color 1s ease' }">  -->
                         <h5>{{ stack.title }}</h5>
                         <p>{{ stack.desc }}</p>
-                        <a :href="stack.href">Getting started</a>
+                        <a :href="stack.href" target="_blank">Getting started </a>
                     </div>
                 </div>
             </div>

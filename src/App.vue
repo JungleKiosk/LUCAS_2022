@@ -6,18 +6,18 @@ import AppFooter from './components/AppFooter.vue';
 export default {
   data() {
     return {
-      loadingPage: true
+      loadingXtime: true
     };
   },
   components: {
     AppHeader,
-    AppMain, 
+    AppMain,
     AppFooter
   },
   methods: {
     loadingPage() {
       setTimeout(() => {
-        this.loadingPage = false
+        this.loadingXtime = false
       }, 2800)
     },
     changeTheme(newTheme) {
@@ -39,7 +39,7 @@ export default {
 </script>
 
 <template>
-  <div v-if="loadingPage">
+  <div v-if="loadingXtime">
     <div class="container container_loading">
       <div class="row justify-content-center">
         <div class="col-9 col-lg-3 col-md-6 text-center px-5 py-5 rounded-5">
@@ -55,7 +55,7 @@ export default {
     </div>
   </div>
 
-  <div v-show="!loadingPage">
+  <div v-show="!loadingXtime">
 
     <AppHeader></AppHeader>
     <AppMain></AppMain>

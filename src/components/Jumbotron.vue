@@ -36,10 +36,10 @@ export default {
                         <p>
                             I have a master's degree in Analysis and Management of Agronomic and Forestry Ecosystems <a
                                 href="https://corsi.unibo.it/magistrale/ProgettazioneGestioneEcosistemi"><span
-                                    class="txt_primary color_txt_link"> PROGESA</span> </a><br>
+                                    class="txt_primary color_txt_link" target="_blank"> PROGESA</span> </a><br>
                             The study programs contribute to the pursuit of the <br> <a
                                 href="https://www.un.org/sustainabledevelopment/"><span
-                                    class="txt_primary color_txt_link">Sustainable
+                                    class="txt_primary color_txt_link" target="_blank">Sustainable
                                     Development Goals</span> </a> of the ONU Agenda 2030. <br>
                             I have a passion for the environment and for technology.<br>
                         </p>
