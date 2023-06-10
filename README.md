@@ -1,21 +1,26 @@
 
+## Click and Look: https://junglekiosk.github.io/LUCAS_2022/
 # LUCAS 2022
 
 Hello nice people!
 I made this project to summarize my elaborations with QGIS for the Eurostat LUCAS 2022 project.
 
-You will find my workflow for the development of a dedicated map for the specific needs of a
-✨LUCAS Detector Technician✨
+You will find my workflow for the development of a dedicated map for the specific needs of a LUCAS Detector Technician✨
 
 There will be explanations accompanied by:
-. Slider pictures
-. Link videos
-. Chart
-. Python code for process iteration
+- Slider pictures,
+- Link videos,
+- Chart,
+- Python code for process iteration.
 
 I hope you have a good browsing experience and the layout is responsive to your device.
 
-# 🚩 Initialize a Vuejs project
+# Initialize a Vuejs project
+
+⚠️ The Essential Vue project extensions:
+- Vue Language Features (Volar) [Visual Studio Code]
+- Vue.js devtools [ Chrome ] 
+https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
 ## commit: setting Vue Project
 
 1. after cloning the repo open the terminal from VSC and type: npm create vite@latest . -- --template vue
