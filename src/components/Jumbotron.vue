@@ -34,7 +34,7 @@ export default {
                     <div class="col-12 col-lg-6 bg_row_img py-5 my-2 align-content-center introduce">
                         <h1><strong>Hi, I'm </strong><span class="txt_title_thin">FRA</span></h1>
                         <p>
-                            I have a master's degree in Analysis and Management of Agronomic and Forestry Ecosystems <a
+                            I have a master's degree in Analysis and Management of Agronomic and Forestry Ecosystems: <a
                                 href="https://corsi.unibo.it/magistrale/ProgettazioneGestioneEcosistemi"><span
                                     class="txt_primary color_txt_link" target="_blank"> PROGESA</span> </a><br>
                             The study programs contribute to the pursuit of the <br> <a
@@ -57,10 +57,10 @@ export default {
                         <p>
                             If you want to know more about the LUCAS project click the button below.
                         </p>
+
                         <div class="link_lucas text-center py-2">
                             <a href="https://ec.europa.eu/eurostat/web/lucas" class="btn text-light zoom-effect lucas_link"
                                 target="_blank"><strong>LUCAS website</strong></a>
-
                         </div>
 
 
@@ -79,8 +79,8 @@ export default {
 
                     <div class="container">
                         <div class="row align-items-center my-5">
-                            <div class="col-5 col-lg-3 rounded-pill text-center col_github">
-                                <h6 class=" txt_neutral_github bg-dark rounded-pill">visit my <span class="txt_github">GitHub</span> profile &RightArrow;</h6>
+                            <div class="col-4 col-md-4 col-lg-2 rounded-pill text-center col_github">
+                                <h6 class=" txt_neutral_github bg-dark rounded-pill">visit my <span class="txt_github">GitHub</span></h6>
                             </div>
                             <div class="col-6 col-lg-2 mx-1 col_github">
                                 <a href="https://github.com/JungleKiosk" target="_blank">

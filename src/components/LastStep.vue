@@ -96,7 +96,7 @@ export default {
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-3 col-lg-2 text-center">
-                                <a href="https://www.youtube.com/watch?v=-joRX934yrg&list=PLR8J_sq3CKNeNDxQ5qduA0e1RSphD2sfV&index=6">
+                                <a href="https://www.youtube.com/watch?v=-joRX934yrg&list=PLR8J_sq3CKNeNDxQ5qduA0e1RSphD2sfV&index=6" target="_blank">
                                     <img class="text-center zoom_yt" src="../assets/img/yt.svg" alt="">
                                 </a>
                                 <span>Click</span>

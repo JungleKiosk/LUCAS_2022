@@ -16,8 +16,8 @@ export default {
 <template>
   <section class="contacts col">
 
-    <ul>
     <h5>Contacts</h5>
+    <ul>
       <!-- <p class="address m-0">{{ `${contacts.country}, ${contacts.state} ${contacts.houseNumber}, ${contacts.street}, ${contacts.state}` }}</p> -->
       <p class="phone_numbers my-3">
         Tel.: {{ contacts.tel }}

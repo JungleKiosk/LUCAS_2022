@@ -10,10 +10,10 @@
     color: $info;
     text-decoration: none;
     transition: color 0.2s;
-    text-decoration-line: underline;
-
+    
     &:hover {
-      color: $lime;
+      color: $info_light;
+      text-decoration-line: underline;
     }
 
   }

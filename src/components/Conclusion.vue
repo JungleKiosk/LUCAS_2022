@@ -62,7 +62,7 @@ export default {
                         <li>Styling: Sass</li>
                     </ul>
                     <p class="text-center my-3">
-                        I wish to thank the Vue.js developer community for the vibrant ecosystem and available resources,
+                        I wish to thank the Vue.js developer community for the vibrant ecosystem and available resources.
                     </p>
 
                 </div>

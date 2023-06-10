@@ -204,7 +204,7 @@ export default {
                     <div class="row justify-content-center">
                         
                         <div class="col-3 col-lg-1 text-center">
-                            <a href="https://www.youtube.com/watch?v=Wbse3awiWEs&list=PLR8J_sq3CKNeNDxQ5qduA0e1RSphD2sfV&index=2">
+                            <a href="https://www.youtube.com/watch?v=Wbse3awiWEs&list=PLR8J_sq3CKNeNDxQ5qduA0e1RSphD2sfV&index=2" target="_blank">
                                 <img class="text-center zoom_yt" src="../assets/img/yt.svg" alt="">
                             </a>
                             <span>Click</span>
@@ -212,7 +212,7 @@ export default {
                         
                         <div class="col-3 col-lg-1 text-center">
                             
-                            <a href="https://www.youtube.com/watch?v=91kFQ2DMe50&list=PLR8J_sq3CKNeNDxQ5qduA0e1RSphD2sfV&index=3">
+                            <a href="https://www.youtube.com/watch?v=91kFQ2DMe50&list=PLR8J_sq3CKNeNDxQ5qduA0e1RSphD2sfV&index=3" target="_blank">
                                 <img class="text-center zoom_yt" src="../assets/img/yt.svg" alt="">
                             </a>
                             <span>Click</span>

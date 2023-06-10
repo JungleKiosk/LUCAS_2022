@@ -9,7 +9,7 @@ export const contacts = {
     logos: [
       { img_logo: "linkedin_footer.svg", url: "" },
       { img_logo: "github_footer.svg", url: "https://github.com/JungleKiosk" },
-      { img_logo: "youtube_footer.svg", url: "" },
+      { img_logo: "youtube_footer.svg", url: "https://www.youtube.com/@kioskgis" },
     ]
     
   }

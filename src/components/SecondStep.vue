@@ -161,4 +161,6 @@ export default {
 .cardinal_vr {
     width: 100%;
 }
+
+
 </style>

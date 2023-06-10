@@ -18,7 +18,7 @@ export default {
     <div class="container req">
       <div class="row justify-content-center">
         <div class="col-12 text-center ">
-          <h3>This gives rise to some technical-logistical requirement to estimate:
+          <h3>This gives rise some technical and logistical requirements to estimate:
           </h3>
         </div>
         <div class="col-4 col-lg-6 req_list font-monospace text-center py-4">
@@ -129,7 +129,7 @@ export default {
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-3 col-lg-2 text-center">
-                <a href="https://www.youtube.com/watch?v=3JjZnE-iQ6M&list=PLR8J_sq3CKNeNDxQ5qduA0e1RSphD2sfV">
+                <a href="https://www.youtube.com/watch?v=3JjZnE-iQ6M&list=PLR8J_sq3CKNeNDxQ5qduA0e1RSphD2sfV" target="_blank">
                   <img class="text-center zoom_yt" src="../assets/img/yt.svg" alt="">
                 </a>
                 <span>Click</span>
