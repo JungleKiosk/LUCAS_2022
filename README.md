@@ -9,8 +9,8 @@ You will find my workflow for the development of a dedicated map for the specifi
 
 There will be explanations accompanied by:
 - Slider pictures,
-- Link videos,
-- Chart,
+- Video,
+- Charts,
 - Python code for process iteration.
 
 I hope you have a good browsing experience and the layout is responsive to your device.
