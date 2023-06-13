@@ -31,7 +31,7 @@ export default {
   <img class="wave_svg margin-bottom: -1px;" style="height: 90px;" src="../assets/img/decoration/wave.svg" alt="">
   <footer>
     <div class="container" id="Contacts">
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+      <div class="row justify-content-center row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
         <AboutFooter></AboutFooter>
         <CorrelationsFooter :blog="correlations"></CorrelationsFooter>
         <!-- <ProjectsFooter :pages="projects"></ProjectsFooter> -->

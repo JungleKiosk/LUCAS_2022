@@ -2,8 +2,8 @@ export const correlations = [
   {
     img: "vue_leaflet.png",
     title: 'Vue Leaflet',
-    date: "- publication date: ",
-    link: "https://vue2-leaflet.netlify.app/",
+    date: "- publication date: 06-13-23",
+    link: "https://junglekiosk.github.io/VueLeaflet/",
   },
   {
     img: "leaflet_write.svg",
