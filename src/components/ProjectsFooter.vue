@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 export default {
   name: "PagesFooter",
   props: {
@@ -16,5 +16,6 @@ export default {
       </li>
     </ul>
   </section>
-  <!-- /.col -->
+
 </template>
+ -->

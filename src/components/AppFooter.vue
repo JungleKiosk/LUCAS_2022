@@ -6,7 +6,7 @@ import { correlations } from "./../data/correlations.js"
 
 import AboutFooter from "./AboutFooter.vue"
 import ContactsFooter from "./ContactsFooter.vue"
-import ProjectsFooter from "./ProjectsFooter.vue"
+/* import ProjectsFooter from "./ProjectsFooter.vue" */
 import CorrelationsFooter from "./CorrelationsFooter.vue"
 
 export default {
@@ -14,7 +14,7 @@ export default {
   components: {
     AboutFooter,
     ContactsFooter,
-    ProjectsFooter,
+    /* ProjectsFooter, */
     CorrelationsFooter,
   },
   data() {
@@ -34,7 +34,7 @@ export default {
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
         <AboutFooter></AboutFooter>
         <CorrelationsFooter :blog="correlations"></CorrelationsFooter>
-        <ProjectsFooter :pages="projects"></ProjectsFooter>
+        <!-- <ProjectsFooter :pages="projects"></ProjectsFooter> -->
         <ContactsFooter :contacts="contacts"></ContactsFooter>
       </div>
       <!-- /.row -->

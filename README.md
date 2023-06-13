@@ -9,8 +9,8 @@ You will find my workflow for the development of a dedicated map for the specifi
 
 There will be explanations accompanied by:
 - Slider pictures,
-- Link videos,
-- Chart,
+- Video,
+- Charts,
 - Python code for process iteration.
 
 I hope you have a good browsing experience and the layout is responsive to your device.
@@ -39,9 +39,6 @@ https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanh
 
 ## Other installations:
 npm i vue-chartjs chart.js
-# commit
-main: add FourthStep, PyAddData, SliderCsvPivot, install [ npm i vue-chartjs chart.js ] to add charts
-
 
 # Vue 3 + Vite
 

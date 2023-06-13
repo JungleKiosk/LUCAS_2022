@@ -1,7 +1,18 @@
 export const projects = [
-    "HelloVue",
-    "LUCAS 2022",
-    "VueLeaflet",
-    "eeRemoteSensing"
-  ]
-   
+  {
+    name: "HelloVue",
+    link: ""
+  },
+  {
+    name: "LUCAS 2022",
+    link: ""
+  },
+  {
+    name: "VueLeaflet",
+    link: ""
+  },
+  {
+    name: "eeRemoteSensing",
+    link: ""
+  }
+];
