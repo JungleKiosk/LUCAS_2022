@@ -17,7 +17,7 @@ export default {
 
     methods: {
         getImagePath: function (name) {
-            return new URL(`../assets/img/goals2030/${name}`, import.meta.url).href
+            return new URL(`../assets/img/${name}`, import.meta.url).href
         }
     }
 }
